@@ -1,20 +1,20 @@
-HELOISA STUDIO — LICENÇAS DE TERCEIROS
-=======================================
+CORTUP — LICENÇAS DE TERCEIROS
+==============================
 
-O Heloisa Studio usa os componentes abaixo, cada um sob a sua própria licença.
+O CortUp usa os componentes abaixo, cada um sob a sua própria licença.
 Os textos completos estão no fim deste arquivo.
 
 FFmpeg (ffmpeg.exe e ffprobe.exe, pasta ffmpeg\bin)
     Versão: ffmpeg version N-125875-g5d4d3bdc61-20260731 Copyright (c) 2000-2026 the FFmpeg developers
     Licença: GNU General Public License versão 3 ou posterior
              (build com --enable-gpl: inclui bibliotecas GPL como o x264)
-    O Heloisa Studio executa o FFmpeg como programa separado; ele não é modificado.
+    O CortUp executa o FFmpeg como programa separado; ele não é modificado.
 
     Código-fonte correspondente (obrigação da GPL):
       - FFmpeg: https://github.com/FFmpeg/FFmpeg/tree/5d4d3bdc61
       - Scripts de compilação e bibliotecas deste build:
         https://github.com/yt-dlp/FFmpeg-Builds
-      - Oferta: o vendedor do Heloisa Studio fornece uma cópia do código-fonte completo deste
+      - Oferta: o vendedor do CortUp fornece uma cópia do código-fonte completo deste
         FFmpeg a quem pedir, por no mínimo 3 anos a partir da distribuição.
 
     Configuração do build:
@@ -28,7 +28,7 @@ PyInstaller (carregador do .exe)
     Licença: GPL 2.0 com exceção que permite distribuir programas de qualquer licença
     https://pyinstaller.org/en/stable/license.html
 
-Nuitka (compilou o código do Heloisa Studio no módulo nativo cortador*.pyd)
+Nuitka (compilou o código do CortUp no módulo nativo cortador*.pyd)
     O módulo inclui a biblioteca de execução do Nuitka: AGPL 3.0 com a "Nuitka Runtime
     Library Exception 1.0", que permite distribuir o programa compilado sob licença
     própria (arquivo LICENSE-RUNTIME.txt). https://github.com/Nuitka/Nuitka
